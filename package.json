@@ -1,0 +1,19 @@
+{
+  "name": "redis-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.1",
+    "ioredis": "^5.4.1",
+    "nodemon": "^3.1.7"
+  }
+}
